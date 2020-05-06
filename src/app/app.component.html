@@ -27,4 +27,5 @@
     <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
     <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
   </table>
+  <mat-paginator style="float: initial;" [pageSize]="10" [showFirstLastButtons]="true"></mat-paginator>
 </div>
